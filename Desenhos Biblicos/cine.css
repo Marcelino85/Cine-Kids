@@ -59,7 +59,8 @@ li:hover{
 }
 
 .myvideo{ 
-    
+    width: 700px;
+    height: 415px;
     margin: 40px 0;
     border-radius: 10px;
     
