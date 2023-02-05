@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    background-color: #253659;
+
+}
+
+header{
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #03A696;
+    align-items: center;
+
+}
+
+nav{
+    width: 60%;
+    background-color: #03A696;
+}
+
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #03A696;
+}
+
+li{
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    background-color: #03A696;
+    font-family:'Kdam+Thmor+Pro', sans-serif  ;
+}
+
+li:hover{
+    color: #F27457;
+}
+
+#logo{
+    width: 80px;
+    height: auto;
+    border-radius: 50px;
+}
+
+#cine{
+    display: flex;
+    align-items: center;
+        
+}
+
+.myvideo{
+    margin-left: 25%;
+    margin-top: 30px;
+    border-radius: 10px;
+    
+    border: 10px solid #F27457;;
+}
